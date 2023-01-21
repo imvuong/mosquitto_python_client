@@ -1,0 +1,4 @@
+<launch>
+  <node name="mosquitto_python_client_sub" pkg="mosquitto_python_client" type="subscriber.py" output="screen">
+  </node>
+</launch>
